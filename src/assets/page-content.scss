@@ -1,0 +1,63 @@
+.page-content {
+  margin: 0 1rem;
+
+  >*+* {
+    margin-top: 0.75em;
+  }
+
+  h3 {
+    margin: 1rem 0 0.5rem;
+  }
+
+  pre {
+    border-radius: 5px;
+    color: #333;
+  }
+
+  code {
+    display: block;
+    white-space: pre-wrap;
+    font-size: 0.8rem;
+    padding: 0.75rem 1rem;
+    background-color: #e9ecef;
+    color: #495057;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-lg;
+  }
+
+  h6 {
+    @apply text-sm;
+  }
+
+  ul {
+    @apply list-disc ml-5;
+  }
+
+  ol {
+    @apply list-decimal ml-5;
+  }
+
+  blockquote {
+    color: inherit;
+    border-left-width: 2px;
+    padding-left: 0.5rem;
+  }
+}
