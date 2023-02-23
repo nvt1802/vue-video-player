@@ -22,7 +22,7 @@ VideoPlayer.args = {
       label: "Tiếng Việt",
       kind: "subtitles",
       srclang: "vn",
-      src: "https://video-koss.web.app/ThuyenQuyen/[VN]ThuyenQuyen.vtt",
+      src: "../../public/ThuyenQuyen/[VN]ThuyenQuyen.vtt",
     },
   ],
   width: 720,
