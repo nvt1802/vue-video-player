@@ -272,8 +272,8 @@
 </template>
 
 <script setup lang="ts">
-import "@/components/VideoPlayer/styles.scss";
-import { toHHMMSS } from "@/utils";
+import "./styles.scss";
+import { toHHMMSS } from "../../utils/index";
 import { onMounted, provide, reactive, ref } from "vue";
 import { listConfigMenu } from "./constants";
 import { getData, setCaption, setMuted, setVolume } from "./localStore";
@@ -302,9 +302,9 @@ import {
   iconVolumeS,
   iconFullScreenExit,
   iconPIP,
-} from "@/components/VideoPlayer/icons/index";
+} from "./icons/index";
 
-import Volume from "@/components/VideoPlayer/Controls/volume.vue";
+import Volume from "./Controls/volume.vue";
 import Captions from "./Captions/index.vue";
 import MainMenu from "./Controls/Menu/MainMenu.vue";
 import Speed from "./Controls/Menu/Speed.vue";

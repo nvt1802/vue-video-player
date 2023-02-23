@@ -41,7 +41,7 @@
 </template>
 
 <script setup lang="ts">
-import { iconCheck, iconArrowLeft } from "@/components/VideoPlayer/icons";
+import { iconCheck, iconArrowLeft } from "../../icons/index";
 interface IProps {
   trackIndexActive: number;
   listSubtitles: any[];

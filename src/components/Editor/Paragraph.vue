@@ -106,7 +106,7 @@ import {
   iconH5,
   iconH6,
   iconParagraph,
-} from "@/components/Editor/icons/index";
+} from "./icons/index";
 
 interface IProps {
   editor: Editor;

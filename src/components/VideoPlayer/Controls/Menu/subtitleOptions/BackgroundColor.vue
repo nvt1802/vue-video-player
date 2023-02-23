@@ -37,12 +37,12 @@
 </template>
 
 <script setup lang="ts">
-import { backgroundColorOptions } from "@/components/VideoPlayer/constants";
-import { setBackgroundColor } from "@/components/VideoPlayer/localStore";
+import { backgroundColorOptions } from "../../../constants";
+import { setBackgroundColor } from "../../../localStore";
 import { inject } from "vue";
 
-import { iconArrowLeft, iconCheck } from "@/components/VideoPlayer/icons";
-import type { SubtitleOptions } from "@/components/VideoPlayer/types";
+import { iconArrowLeft, iconCheck } from "../../../icons";
+import type { SubtitleOptions } from "../../../types";
 
 const emits = defineEmits(["update:backgroundColor", "onBackToMenu"]);
 const subtitleOptions = inject("subtitleOptions") as SubtitleOptions;

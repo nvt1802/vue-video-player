@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
-import { toHHMMSS } from "@/utils";
+import { toHHMMSS } from "../../../utils/index";
 import { VideoSnapper } from "../constants";
 import type { VideoPlayState } from "../types";
 

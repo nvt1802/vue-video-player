@@ -109,9 +109,9 @@ import {
   iconSpeed,
   iconSubtitles,
   iconVideoFile,
-} from "@/components/VideoPlayer/icons";
+} from "../../icons";
 
-import Switch from "@/components/Switch/index.vue";
+import Switch from "../../../Switch/index.vue";
 import { setDisplayName } from "../../localStore";
 
 interface IProps {

@@ -35,12 +35,12 @@
 </template>
 
 <script setup lang="ts">
-import { fontSizeOptions } from "@/components/VideoPlayer/constants";
-import { setFontSize } from "@/components/VideoPlayer/localStore";
+import { fontSizeOptions } from "../../../constants";
+import { setFontSize } from "../../../localStore";
 import { inject } from "vue";
 
-import { iconArrowLeft, iconCheck } from "@/components/VideoPlayer/icons";
-import type { SubtitleOptions } from "@/components/VideoPlayer/types";
+import { iconArrowLeft, iconCheck } from "../../../icons";
+import type { SubtitleOptions } from "../../../types";
 
 const emits = defineEmits(["update:fontSize", "onBackToMenu"]);
 

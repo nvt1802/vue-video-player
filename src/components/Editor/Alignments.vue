@@ -73,7 +73,7 @@ import {
   iconAlignJustify,
   iconAlignLeft,
   iconAlignRight,
-} from "@/components/Editor/icons/index";
+} from "./icons/index";
 
 interface IProps {
   editor: Editor;

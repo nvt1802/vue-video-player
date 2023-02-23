@@ -35,12 +35,12 @@
 </template>
 
 <script setup lang="ts">
-import { colorOptions } from "@/components/VideoPlayer/constants";
-import { setFontColor } from "@/components/VideoPlayer/localStore";
+import { colorOptions } from "../../../constants";
+import { setFontColor } from "../../../localStore";
 import { inject } from "vue";
 
-import { iconArrowLeft, iconCheck } from "@/components/VideoPlayer/icons";
-import type { SubtitleOptions } from "@/components/VideoPlayer/types";
+import { iconArrowLeft, iconCheck } from "../../../icons";
+import type { SubtitleOptions } from "../../../types";
 
 // interface IProps {}
 // const {} = defineProps<IProps>();

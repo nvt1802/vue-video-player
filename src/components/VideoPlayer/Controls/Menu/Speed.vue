@@ -35,10 +35,10 @@
 </template>
 
 <script setup lang="ts">
-import { speedOptions } from "@/components/VideoPlayer/constants";
-import { setSpeed } from "@/components/VideoPlayer/localStore";
+import { speedOptions } from "../../constants";
+import { setSpeed } from "../../localStore";
 
-import { iconCheck, iconArrowLeft } from "@/components/VideoPlayer/icons";
+import { iconCheck, iconArrowLeft } from "../../icons";
 
 interface IProps {
   playbackRate: number;

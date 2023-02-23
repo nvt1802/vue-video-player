@@ -100,7 +100,7 @@ import {
   iconStrike,
   iconUnderline,
   iconUndo,
-} from "@/components/Editor/icons/index";
+} from "./icons/index";
 import type { Editor } from "@tiptap/vue-3";
 import Paragraph from "./Paragraph.vue";
 import Alignments from "./Alignments.vue";

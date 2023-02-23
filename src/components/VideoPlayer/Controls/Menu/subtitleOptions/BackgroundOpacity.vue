@@ -33,12 +33,12 @@
 </template>
 
 <script setup lang="ts">
-import { backgroundOpacityOptions } from "@/components/VideoPlayer/constants";
-import { setBackgroundOpacity } from "@/components/VideoPlayer/localStore";
+import { backgroundOpacityOptions } from "../../../constants";
+import { setBackgroundOpacity } from "../../../localStore";
 import { inject } from "vue";
 
-import { iconArrowLeft, iconCheck } from "@/components/VideoPlayer/icons";
-import type { SubtitleOptions } from "@/components/VideoPlayer/types";
+import { iconArrowLeft, iconCheck } from "../../../icons";
+import type { SubtitleOptions } from "../../../types";
 
 const emits = defineEmits(["update:backgroundOpacity", "onBackToMenu"]);
 const subtitleOptions = inject("subtitleOptions") as SubtitleOptions;

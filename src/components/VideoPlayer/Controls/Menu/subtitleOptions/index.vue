@@ -41,9 +41,9 @@
 import {
 backgroundColorOptions,
 backgroundOpacityOptions, colorOptions, subtitlesOptions
-} from "@/components/VideoPlayer/constants";
-import { iconArrowLeft, iconArrowRight } from "@/components/VideoPlayer/icons";
-import type { MenuType, SubtitleOptions } from "@/components/VideoPlayer/types";
+} from "../../../constants";
+import { iconArrowLeft, iconArrowRight } from "../../../icons";
+import type { MenuType, SubtitleOptions } from "../../../types";
 
 interface IProps {
   subtitleOptions: SubtitleOptions;

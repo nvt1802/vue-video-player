@@ -35,12 +35,12 @@
 </template>
 
 <script setup lang="ts">
-import { fontFamilyOptions } from "@/components/VideoPlayer/constants";
-import { setFontFamily } from "@/components/VideoPlayer/localStore";
+import { fontFamilyOptions } from "../../../constants";
+import { setFontFamily } from "../../../localStore";
 import { inject } from "vue";
 
-import { iconArrowLeft, iconCheck } from "@/components/VideoPlayer/icons";
-import type { SubtitleOptions } from "@/components/VideoPlayer/types";
+import { iconArrowLeft, iconCheck } from "../../../icons";
+import type { SubtitleOptions } from "../../../types";
 
 const emits = defineEmits(["update:fontFamily", "onBackToMenu"]);
 const subtitleOptions = inject("subtitleOptions") as SubtitleOptions;
